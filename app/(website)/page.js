@@ -1,9 +1,11 @@
-import HomePage from "./home";
-import { getAllPosts } from "@/lib/sanity/client";
+import { getAllAuthors, getSettings } from "@/lib/sanity/client";
 
-export default async function IndexPage() {
-  const posts = await getAllPosts();
-  return <HomePage posts={posts} />;
+import Home from "./home";
+
+export default async function AboutPage() {
+  const authors = await getAllAuthors();
+  const settings = await getSettings();
+  return <Home settings={settings} authors={authors} />;
 }
 
 export const revalidate = 60;
