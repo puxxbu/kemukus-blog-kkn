@@ -1,17 +1,8 @@
 "use client";
 
 import Container from "@/components/container";
-import Gallery from "@/components/image/gallery";
-import { urlForImage } from "@/lib/sanity/image";
-import Image from "next/image";
-import Link from "next/link";
+import InfiniteLoop from "@/components/infinite-loop";
 import { motion } from "framer-motion";
-import styles from "@/styles";
-import {
-  slideIn,
-  staggerContainer,
-  textVariant
-} from "../../utils/motion";
 
 export default function Home({ authors, settings }) {
   return (
@@ -39,6 +30,18 @@ export default function Home({ authors, settings }) {
             />
           </div>
         </div>
+      </motion.section>
+
+      <div className="mx-auto max-w-screen-xl px-4 py-8 lg:grid-cols-6 lg:gap-8 lg:py-16 xl:gap-0">
+        <InfiniteLoop />
+      </div>
+
+      <motion.section
+        className="bg-white dark:bg-gray-900"
+        initial={{ opacity: 0, x: -100 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ duration: 0.8 }}>
+        <div className="mx-auto grid max-w-screen-xl px-4 py-8 lg:grid-cols-12 lg:gap-8 lg:py-16 xl:gap-0"></div>
       </motion.section>
     </Container>
   );
