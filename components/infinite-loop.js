@@ -11,7 +11,12 @@ export default function InfiniteLoop(props) {
     { id: 2, name: "Jane Smith" },
     { id: 3, name: "Michael Johnson" },
     { id: 4, name: "Sarah Williams" },
-    { id: 5, name: "David Brown" }
+    { id: 5, name: "David Brown" },
+    { id: 6, name: "John Doe" },
+    { id: 7, name: "Jane Smith" },
+    { id: 8, name: "Michael Johnson" },
+    { id: 9, name: "Sarah Williams" },
+    { id: 10, name: "David Brown" }
   ];
 
   return (

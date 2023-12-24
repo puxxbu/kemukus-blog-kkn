@@ -47,3 +47,7 @@ next-env.d.ts
 /.sanity
 /dist
 .env*.local
+
+
+# Contentlayer
+.contentlayer

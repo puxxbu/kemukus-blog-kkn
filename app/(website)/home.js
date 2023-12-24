@@ -14,13 +14,16 @@ export default function Home({ authors, settings }) {
         transition={{ duration: 0.8 }}>
         <div className="mx-auto grid max-w-screen-xl px-4 py-8 lg:grid-cols-12 lg:gap-8 lg:py-16 xl:gap-0">
           <div className="mr-auto place-self-center lg:col-span-7">
-            <h1 className="mb-4 max-w-2xl text-4xl font-extrabold leading-none tracking-tight dark:text-white md:text-5xl xl:text-6xl">
-              Payments tool for software companies
+            <h1 className="mb-4 max-w-2xl text-5xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-6xl dark:text-white">
+              Tentang Padukuhan Kemukus
             </h1>
-            <p className="mb-6 max-w-2xl font-light text-gray-500 dark:text-gray-400 md:text-lg lg:mb-8 lg:text-xl">
-              From checkout to global sales tax compliance, companies
-              around the world use Flowbite to simplify their payment
-              stack.
+            <p className="mb-6 max-w-2xl font-light text-gray-900 md:text-lg lg:mb-8 lg:text-xl dark:text-gray-400">
+              Di Padukuhan Kemukus, terdapat air terjun yang dikenal
+              dengan nama Air Terjun Kemukus. Air terjun ini terletak
+              di tengah hutan dan dikelilingi oleh pemandangan yang
+              hijau dan segar. Pengunjung dapat menikmati keindahan
+              air terjun yang memiliki ketinggian sekitar 35 meter dan
+              airnya yang jernih.
             </p>
           </div>
           <div className="hidden lg:col-span-5 lg:mt-0 lg:flex">

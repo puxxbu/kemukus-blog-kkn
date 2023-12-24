@@ -2,6 +2,7 @@
 
 import Container from "@/components/container";
 import Gallery from "@/components/image/gallery";
+import InfiniteLoop from "@/components/infinite-loop";
 import { urlForImage } from "@/lib/sanity/image";
 import Image from "next/image";
 import Link from "next/link";
@@ -9,16 +10,16 @@ import Link from "next/link";
 export default function About({ authors, settings }) {
   return (
     <Container>
-      <h1 className="text-brand-primary mb-3 mt-2 text-center text-3xl font-semibold tracking-tight dark:text-white lg:text-4xl lg:leading-snug">
+      <h1 className="text-brand-primary mb-3 mt-2 text-center text-3xl font-semibold tracking-tight lg:text-4xl lg:leading-snug dark:text-white">
         Tentang Website Kami
       </h1>
       <section className="bg-white dark:bg-gray-900 ">
         <div className="mx-auto grid max-w-screen-xl px-4 py-8 lg:grid-cols-12 lg:gap-8 lg:py-16 xl:gap-0">
           <div className="mr-auto place-self-center lg:col-span-7">
-            <h1 className="mb-4 max-w-2xl text-4xl font-extrabold leading-none tracking-tight dark:text-white md:text-5xl xl:text-6xl">
+            <h1 className="mb-4 max-w-2xl text-4xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-6xl dark:text-white">
               Payments tool for software companies
             </h1>
-            <p className="mb-6 max-w-2xl font-light text-gray-500 dark:text-gray-400 md:text-lg lg:mb-8 lg:text-xl">
+            <p className="mb-6 max-w-2xl font-light text-gray-500 md:text-lg lg:mb-8 lg:text-xl dark:text-gray-400">
               From checkout to global sales tax compliance, companies
               around the world use Flowbite to simplify their payment
               stack.
@@ -36,6 +37,9 @@ export default function About({ authors, settings }) {
         <p className="text-lg">
           Kami Dari Kelompok 20 KKN 84 Mempersembahkan
         </p>
+      </div>
+      <div className="mx-auto max-w-screen-xl px-4 py-8 lg:grid-cols-5 lg:gap-8 lg:py-16 xl:gap-0">
+        <InfiniteLoop />
       </div>
 
       <div className="mb-16 mt-6 grid grid-cols-3 gap-5 md:mb-32 md:mt-16 md:gap-16">
