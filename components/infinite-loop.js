@@ -7,16 +7,16 @@ import styles from "@/styles";
 
 export default function InfiniteLoop(props) {
   const profiles = [
-    { id: 1, name: "John Doe" },
-    { id: 2, name: "Jane Smith" },
-    { id: 3, name: "Michael Johnson" },
-    { id: 4, name: "Sarah Williams" },
-    { id: 5, name: "David Brown" },
-    { id: 6, name: "John Doe" },
-    { id: 7, name: "Jane Smith" },
-    { id: 8, name: "Michael Johnson" },
-    { id: 9, name: "Sarah Williams" },
-    { id: 10, name: "David Brown" }
+    { id: 1, name: "Ardhya Devanty C." },
+    { id: 2, name: "Benidiktus Valerino G." },
+    { id: 3, name: "Helena Widya H." },
+    { id: 4, name: "I Dewa Gde Trisna Adi Yadnya" },
+    { id: 5, name: "Imanuella Maria S." },
+    { id: 6, name: "Johan Anderson G." },
+    { id: 7, name: "Joya Fransiska K." },
+    { id: 8, name: "Kunthi Mawar P." },
+    { id: 9, name: "Natasya Monica" },
+    { id: 10, name: "Sotardodo Nababan" }
   ];
 
   return (
@@ -24,19 +24,9 @@ export default function InfiniteLoop(props) {
       variants={staggerContainer}
       initial="hidden"
       whileInView="show"
-      viewport={{ once: false, amount: 0.25 }}
+      viewport={{ once: true, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto flex flex-col`}>
-      {/* <TypingText title="| The Worlds" textStyles="text-center" />
-    <TitleText
-      title={
-        <>
-          Chose the world you want <br className="hidden md:block" /> to
-          explore
-        </>
-      }
-      textStyles="text-center"
-    /> */}
-      <div className="grid grid-cols-3 gap-5">
+      <div className="grid grid-cols-1 gap-5 md:grid-cols-3">
         {profiles.map((item, i) => (
           <ProfileCard key={i} name={item.name} index={i} />
         ))}

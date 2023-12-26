@@ -66,7 +66,13 @@ export default function Home({ authors, settings }) {
                 ketinggian sekitar 35 meter dan airnya yang jernih.
               </p>
             </div>
-            <div className="hidden lg:col-span-5 lg:mt-0 lg:flex">
+            <div className="lg:hidden">
+              <img
+                src="https://cdn.discordapp.com/attachments/170900821200994304/1186260349654155364/413753fe8fee2a4af980c5be21dbecb4.jpeg?ex=65929a0b&is=6580250b&hm=f0ed1307c02fbe50165ea880f09f243e348bbbea46ee0a4a1a7269160392d3f9&"
+                alt="mockup"
+              />
+            </div>
+            <div className="hidden lg:col-span-5 lg:mt-0 lg:flex lg:justify-end">
               <img
                 src="https://cdn.discordapp.com/attachments/170900821200994304/1186260349654155364/413753fe8fee2a4af980c5be21dbecb4.jpeg?ex=65929a0b&is=6580250b&hm=f0ed1307c02fbe50165ea880f09f243e348bbbea46ee0a4a1a7269160392d3f9&"
                 alt="mockup"
@@ -102,6 +108,12 @@ export default function Home({ authors, settings }) {
                 menikmati keindahan air terjun yang memiliki
                 ketinggian sekitar 35 meter dan airnya yang jernih.
               </p>
+            </div>
+            <div className="lg:hidden">
+              <img
+                src="https://cdn.discordapp.com/attachments/170900821200994304/1186260349654155364/413753fe8fee2a4af980c5be21dbecb4.jpeg?ex=65929a0b&is=6580250b&hm=f0ed1307c02fbe50165ea880f09f243e348bbbea46ee0a4a1a7269160392d3f9&"
+                alt="mockup"
+              />
             </div>
           </div>
         </motion.div>
@@ -144,7 +156,13 @@ export default function Home({ authors, settings }) {
                 ketinggian sekitar 35 meter dan airnya yang jernih.
               </p>
             </div>
-            <div className="hidden lg:col-span-5 lg:mt-0 lg:flex">
+            <div className="lg:hidden">
+              <img
+                src="https://cdn.discordapp.com/attachments/170900821200994304/1186260349654155364/413753fe8fee2a4af980c5be21dbecb4.jpeg?ex=65929a0b&is=6580250b&hm=f0ed1307c02fbe50165ea880f09f243e348bbbea46ee0a4a1a7269160392d3f9&"
+                alt="mockup"
+              />
+            </div>
+            <div className="hidden lg:col-span-5 lg:mt-0 lg:flex lg:justify-end">
               <img
                 src="https://cdn.discordapp.com/attachments/170900821200994304/1186260349654155364/413753fe8fee2a4af980c5be21dbecb4.jpeg?ex=65929a0b&is=6580250b&hm=f0ed1307c02fbe50165ea880f09f243e348bbbea46ee0a4a1a7269160392d3f9&"
                 alt="mockup"
@@ -180,6 +198,12 @@ export default function Home({ authors, settings }) {
                 menikmati keindahan air terjun yang memiliki
                 ketinggian sekitar 35 meter dan airnya yang jernih.
               </p>
+            </div>
+            <div className="lg:hidden">
+              <img
+                src="https://cdn.discordapp.com/attachments/170900821200994304/1186260349654155364/413753fe8fee2a4af980c5be21dbecb4.jpeg?ex=65929a0b&is=6580250b&hm=f0ed1307c02fbe50165ea880f09f243e348bbbea46ee0a4a1a7269160392d3f9&"
+                alt="mockup"
+              />
             </div>
           </div>
         </motion.div>

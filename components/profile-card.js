@@ -10,22 +10,6 @@ export default function ProfileCard({ name, index }) {
       className=" ease-out-flex flex  w-full flex-[10] cursor-pointer items-center justify-center transition-[flex] duration-[0.7s] lg:flex-[3.5]">
       <div className="w-full max-w-md rounded-lg border border-gray-200 bg-white shadow dark:border-gray-700 dark:bg-gray-800">
         <div className="flex justify-end px-4 pt-4">
-          <button
-            id="dropdownButton"
-            data-dropdown-toggle="dropdown"
-            className="inline-block rounded-lg p-1.5 text-sm text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-700"
-            type="button">
-            <span className="sr-only">Open dropdown</span>
-            <svg
-              className="h-5 w-5"
-              aria-hidden="true"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="currentColor"
-              viewBox="0 0 16 3">
-              <path d="M2 0a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3Zm6.041 0a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3ZM14 0a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3Z" />
-            </svg>
-          </button>
-
           {/* <div
             id="dropdown"
             className="z-10 hidden text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
@@ -54,9 +38,9 @@ export default function ProfileCard({ name, index }) {
             </ul>
           </div> */}
         </div>
-        <div className="flex flex-col items-center pb-10">
+        <div className="flex flex-col items-center py-10">
           <img
-            className="mb-3 h-24 w-24 rounded-full shadow-lg"
+            className="mb-3 h-[9rem] w-[9rem] rounded-full shadow-lg"
             src="https://cdn.discordapp.com/attachments/170900821200994304/1186571054643163136/IMG_20231001_1646501on1.jpg?ex=6593bb68&is=65814668&hm=7d36d1d573f8ce911a3337382416490e541a85c1d2ef69a703950c0f1223d80a&"
             alt="Bonnie image"
           />
