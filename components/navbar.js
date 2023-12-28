@@ -17,14 +17,14 @@ export default function Navbar(props) {
       href: "/"
     },
     {
-      label: "About",
+      label: "Tentang",
       href: "/about"
     }
   ];
 
   const rightmenu = [
     {
-      label: "Contact",
+      label: "Kontak Kami",
       href: "/contact"
     },
     {
