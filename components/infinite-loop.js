@@ -7,13 +7,13 @@ import styles from "@/styles";
 
 export default function InfiniteLoop(props) {
   const profiles = [
-    { id: 1, name: "Ardhya Devanty C." },
-    { id: 2, name: "Benidiktus Valerino G." },
-    { id: 3, name: "Helena Widya H." },
-    { id: 4, name: "I Dewa Gde Trisna Adi Yadnya" },
-    { id: 5, name: "Imanuella Maria S." },
-    { id: 6, name: "Johan Anderson G." },
-    { id: 7, name: "Joya Fransiska K." },
+    // { id: 1, name: "Ardhya Devanty C." },
+    // { id: 2, name: "Benidiktus Valerino G." },
+    // { id: 3, name: "Helena Widya H." },
+    // { id: 4, name: "I Dewa Gde Trisna Adi Yadnya" },
+    // { id: 5, name: "Imanuella Maria S." },
+    // { id: 6, name: "Johan Anderson G." },
+    // { id: 7, name: "Joya Fransiska K." },
     { id: 8, name: "Kunthi Mawar P." },
     { id: 9, name: "Natasya Monica" },
     { id: 10, name: "Sotardodo Nababan" }

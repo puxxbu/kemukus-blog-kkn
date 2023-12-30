@@ -5,7 +5,7 @@ export default function Gallery(props) {
   const { images } = props;
 
   return (
-    <div className="h-[45rem] bg-black">
+    <div className="sm:h-60vh h-[30rem] h-[30rem] bg-black sm:h-[20rem]">
       <Carousel>
         {images.map((image, index) => (
           <img

@@ -49,13 +49,13 @@ export default function About({ authors, settings }) {
         <InfiniteLoop />
       </div>
 
-      <div className="mb-16 mt-6 grid grid-cols-3 gap-5 md:mb-32 md:mt-16 md:gap-16">
+      {/* <div className="grid grid-cols-3 gap-5 mt-6 mb-16 md:mb-32 md:mt-16 md:gap-16">
         {authors.slice(0, 3).map(author => {
           const imageProps = urlForImage(author?.image) || null;
           return (
             <div
               key={author._id}
-              className="relative aspect-square overflow-hidden rounded-md bg-slate-50 odd:translate-y-10 odd:md:translate-y-16">
+              className="relative overflow-hidden rounded-md aspect-square bg-slate-50 odd:translate-y-10 odd:md:translate-y-16">
               <Link href={`/author/${author?.slug}`}>
                 {imageProps && (
                   <Image
@@ -70,7 +70,7 @@ export default function About({ authors, settings }) {
             </div>
           );
         })}
-      </div>
+      </div> */}
       <MotionSection>
         <div className="mx-auto grid max-w-screen-xl px-4 py-8 lg:grid-cols-12 lg:gap-8 lg:py-16 xl:gap-0">
           <div className="mr-auto place-self-center lg:col-span-7">
@@ -95,7 +95,7 @@ export default function About({ authors, settings }) {
           </div>
         </div>
       </MotionSection>
-      <div className="prose mx-auto mt-14 bg-slate-400 text-center dark:prose-invert">
+      {/* <div className="mx-auto prose text-center mt-14 bg-slate-400 dark:prose-invert">
         <p>
           We provide real-time connectivity to enable software
           providers and financial institutions to build integrated
@@ -110,7 +110,7 @@ export default function About({ authors, settings }) {
         <p>
           <Link href="/contact">Get in touch</Link>
         </p>
-      </div>
+      </div> */}
     </Container>
   );
 }
