@@ -48,7 +48,7 @@ export default function ProfileCard({ name, index }) {
             {name}
           </h5>
           <span className="text-sm text-gray-500 dark:text-gray-400">
-            Visual Designer
+            Admin Website
           </span>
           {/* <div className="flex mt-4 md:mt-6">
             <a

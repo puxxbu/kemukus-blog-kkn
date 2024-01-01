@@ -14,9 +14,8 @@ export default function InfiniteLoop(props) {
     // { id: 5, name: "Imanuella Maria S." },
     // { id: 6, name: "Johan Anderson G." },
     // { id: 7, name: "Joya Fransiska K." },
-    { id: 8, name: "Kunthi Mawar P." },
-    { id: 9, name: "Natasya Monica" },
-    { id: 10, name: "Sotardodo Nababan" }
+    { id: 8, name: "Valerino Gozen" },
+    { id: 9, name: "Mas Yuda" }
   ];
 
   return (
@@ -26,7 +25,7 @@ export default function InfiniteLoop(props) {
       whileInView="show"
       viewport={{ once: true, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto flex flex-col`}>
-      <div className="grid grid-cols-1 gap-5 md:grid-cols-3">
+      <div className="grid grid-cols-1 gap-5 md:grid-cols-2">
         {profiles.map((item, i) => (
           <ProfileCard key={i} name={item.name} index={i} />
         ))}
