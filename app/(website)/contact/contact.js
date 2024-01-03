@@ -50,7 +50,7 @@ export default function Contact({ settings }) {
       </h1>
       <div className="text-center">
         <p className="text-lg">
-          Silahkan Kontak Kami Jika ada masalah pada website ini?.
+          Silahkan Kontak Kami Jika ada masalah pada website ini
         </p>
       </div>
 
@@ -66,8 +66,8 @@ export default function Contact({ settings }) {
             </p>
 
             <div className="mt-5">
-              {/* <div className="text-dark-600 mt-2 flex items-center space-x-2 dark:text-gray-400">
-                <MapPinIcon className="h-4 w-4" />
+              {/* <div className="flex items-center mt-2 space-x-2 text-dark-600 dark:text-gray-400">
+                <MapPinIcon className="w-4 h-4" />
                 <span>1734 Sanfransico, CA 93063</span>
               </div> */}
               {settings?.email && (
@@ -100,8 +100,8 @@ export default function Contact({ settings }) {
             </p>
 
             <div className="mt-5">
-              {/* <div className="text-dark-600 mt-2 flex items-center space-x-2 dark:text-gray-400">
-                <MapPinIcon className="h-4 w-4" />
+              {/* <div className="flex items-center mt-2 space-x-2 text-dark-600 dark:text-gray-400">
+                <MapPinIcon className="w-4 h-4" />
                 <span>1734 Sanfransico, CA 93063</span>
               </div> */}
               {settings?.email && (

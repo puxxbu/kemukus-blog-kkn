@@ -3,7 +3,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { fadeIn } from "@/utils/motion";
 
-export default function ProfileCard({ name, index }) {
+export default function ProfileCard({ name, index, image_url }) {
   return (
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
@@ -41,7 +41,7 @@ export default function ProfileCard({ name, index }) {
         <div className="flex flex-col items-center py-10">
           <img
             className="mb-3 h-[9rem] w-[9rem] rounded-full shadow-lg"
-            src="https://cdn.discordapp.com/attachments/170900821200994304/1186571054643163136/IMG_20231001_1646501on1.jpg?ex=6593bb68&is=65814668&hm=7d36d1d573f8ce911a3337382416490e541a85c1d2ef69a703950c0f1223d80a&"
+            src={image_url}
             alt="Bonnie image"
           />
           <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">
