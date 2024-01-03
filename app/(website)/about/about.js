@@ -130,23 +130,28 @@ export default function About({ authors, settings }) {
           );
         })}
       </div> */}
+
       <MotionSection>
-        <div className="mx-auto grid max-w-screen-xl px-4 py-8 lg:grid-cols-12 lg:gap-8 lg:py-16 xl:gap-0">
-          <div className="mr-auto place-self-center lg:col-span-7">
-            <h1 className="mb-4 max-w-2xl text-4xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-6xl dark:text-white">
+        <div class="mx-auto grid max-w-screen-sm px-4 py-8 md:max-w-screen-xl lg:grid-cols-12 lg:gap-8 lg:py-16 xl:gap-0">
+          <div class="mr-auto place-self-center lg:col-span-7">
+            <h1 class="mb-4 max-w-2xl text-3xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-6xl dark:text-white">
               Karang Taruna Kemukus Mempersembahkan
             </h1>
-            <p className="mb-6 max-w-2xl text-justify font-light text-gray-500 md:text-lg lg:mb-8 lg:text-xl dark:text-gray-400">
-              Consectetur adipiscing elit pellentesque habitant morbi
-              tristique senectus et. Sit amet mattis vulputate enim.
-              Vitae et leo duis ut diam. Metus vulputate eu
-              scelerisque felis imperdiet proin fermentum leo. Luctus
-              venenatis lectus magna fringilla urna. Consectetur
-              adipiscing elit pellentesque habitant morbi tristique
-              senectus et. Ultrices dui sapien eget.
+            <p class="mb-6 max-w-2xl text-base font-light text-gray-900 md:text-lg lg:mb-8 lg:text-xl dark:text-gray-400">
+              Padukuhan Kemukus terletak di Desa Tanjungharjo,
+              Kecamatan Nanggulan, Kabupaten Kulon Progo, Daerah
+              Istimewa Yogyakarta. Padukuhan Kemukus dapat diakses
+              melalui jalan-jalan desa yang menghubungkan antar
+              kampung atau pedusunan
             </p>
           </div>
-          <div className="hidden lg:col-span-5 lg:mt-0 lg:flex">
+          <div className="lg:hidden">
+            <img
+              src="https://cdn.discordapp.com/attachments/170900821200994304/1186260349654155364/413753fe8fee2a4af980c5be21dbecb4.jpeg?ex=65929a0b&is=6580250b&hm=f0ed1307c02fbe50165ea880f09f243e348bbbea46ee0a4a1a7269160392d3f9&"
+              alt="mockup"
+            />
+          </div>
+          <div className="hidden lg:col-span-5 lg:mt-0 lg:flex lg:justify-end">
             <img
               src="https://cdn.discordapp.com/attachments/170900821200994304/1186260349654155364/413753fe8fee2a4af980c5be21dbecb4.jpeg?ex=65929a0b&is=6580250b&hm=f0ed1307c02fbe50165ea880f09f243e348bbbea46ee0a4a1a7269160392d3f9&"
               alt="mockup"
@@ -154,22 +159,6 @@ export default function About({ authors, settings }) {
           </div>
         </div>
       </MotionSection>
-      {/* <div className="mx-auto prose text-center mt-14 bg-slate-400 dark:prose-invert">
-        <p>
-          We provide real-time connectivity to enable software
-          providers and financial institutions to build integrated
-          products for their small business customers.
-        </p>
-        <p>
-          Our API infrastructure is leveraged by clients ranging from
-          lenders to corporate card providers and business forecasting
-          tools, with use cases including automatic reconciliation,
-          business dashboarding, and loan decisioning.
-        </p>
-        <p>
-          <Link href="/contact">Get in touch</Link>
-        </p>
-      </div> */}
     </Container>
   );
 }
