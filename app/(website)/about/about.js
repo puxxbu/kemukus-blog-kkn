@@ -147,13 +147,13 @@ export default function About({ authors, settings }) {
           </div>
           <div className="lg:hidden">
             <img
-              src="https://cdn.discordapp.com/attachments/170900821200994304/1186260349654155364/413753fe8fee2a4af980c5be21dbecb4.jpeg?ex=65929a0b&is=6580250b&hm=f0ed1307c02fbe50165ea880f09f243e348bbbea46ee0a4a1a7269160392d3f9&"
+              src="https://cdn.discordapp.com/attachments/170900821200994304/1193487414795194508/IMG_4791.jpg?ex=65ace4c5&is=659a6fc5&hm=3927ac167f8308c9fc32acf4dc54f5ce637b1f8efa90c9025e80ba9d3516acff&"
               alt="mockup"
             />
           </div>
           <div className="hidden lg:col-span-5 lg:mt-0 lg:flex lg:justify-end">
             <img
-              src="https://cdn.discordapp.com/attachments/170900821200994304/1186260349654155364/413753fe8fee2a4af980c5be21dbecb4.jpeg?ex=65929a0b&is=6580250b&hm=f0ed1307c02fbe50165ea880f09f243e348bbbea46ee0a4a1a7269160392d3f9&"
+              src="https://cdn.discordapp.com/attachments/170900821200994304/1193487414795194508/IMG_4791.jpg?ex=65ace4c5&is=659a6fc5&hm=3927ac167f8308c9fc32acf4dc54f5ce637b1f8efa90c9025e80ba9d3516acff&"
               alt="mockup"
             />
           </div>

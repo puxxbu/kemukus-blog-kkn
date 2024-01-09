@@ -36,10 +36,15 @@ const easeOutVariant = {
 };
 
 const images = [
-  "https://cdn.discordapp.com/attachments/170900821200994304/1186260349654155364/413753fe8fee2a4af980c5be21dbecb4.jpeg?ex=65929a0b&is=6580250b&hm=f0ed1307c02fbe50165ea880f09f243e348bbbea46ee0a4a1a7269160392d3f9&",
-  "https://cdn.discordapp.com/attachments/170900821200994304/1186260349654155364/413753fe8fee2a4af980c5be21dbecb4.jpeg?ex=65929a0b&is=6580250b&hm=f0ed1307c02fbe50165ea880f09f243e348bbbea46ee0a4a1a7269160392d3f9&",
-  "https://cdn.discordapp.com/attachments/170900821200994304/1186260349654155364/413753fe8fee2a4af980c5be21dbecb4.jpeg?ex=65929a0b&is=6580250b&hm=f0ed1307c02fbe50165ea880f09f243e348bbbea46ee0a4a1a7269160392d3f9&",
-  "https://cdn.discordapp.com/attachments/170900821200994304/1186260349654155364/413753fe8fee2a4af980c5be21dbecb4.jpeg?ex=65929a0b&is=6580250b&hm=f0ed1307c02fbe50165ea880f09f243e348bbbea46ee0a4a1a7269160392d3f9&"
+  "https://cdn.discordapp.com/attachments/170900821200994304/1192351628901236776/proker-senam-1-cropped.jpeg?ex=65a8c2fd&is=65964dfd&hm=3db67c48c2a335ae64d51a48dc744810b988356674d899603b6f7b6047dad454&",
+  "https://cdn.discordapp.com/attachments/170900821200994304/1192351628200788038/proker-kelurahan-1.jpeg?ex=65a8c2fc&is=65964dfc&hm=77d2d070cbc15765d99c526d59b2daa1e15f0539a67c118a73c1944181806c24&",
+  "https://cdn.discordapp.com/attachments/170900821200994304/1192351628548911156/proker-kelurahan-8.jpeg?ex=65a8c2fd&is=65964dfd&hm=9b4a4719c58e397922651fbb465b24da99b4ebbceb7421ed178389814506ec05&",
+  "https://cdn.discordapp.com/attachments/170900821200994304/1192351627517112391/gitar-1.jpeg?ex=65a8c2fc&is=65964dfc&hm=73616d63a09c6eaacda11c0b61f65f54f8742aa78b5a5e36082d812e16e14af5&",
+  "https://cdn.discordapp.com/attachments/170900821200994304/1192351627890401291/gitar-2.jpeg?ex=65a8c2fc&is=65964dfc&hm=218c586a84729697ffdcaad3b05fafa556579e35f333ea8eaa09277543de5d23&",
+  "https://cdn.discordapp.com/attachments/170900821200994304/1194258956365860945/sikatgigi-1.jpeg?ex=65afb353&is=659d3e53&hm=ec320f81176dfa4cd7a41e34fd208e2d0d8a786558c8e816cb3f61edefd3afc7&",
+  "https://cdn.discordapp.com/attachments/170900821200994304/1194258958664339486/sikatgigi-2.jpeg?ex=65afb354&is=659d3e54&hm=73231dae92cd77185256ef9c0a487b53a8c3328cbd9d8134a3928969433c8749&",
+  "https://cdn.discordapp.com/attachments/170900821200994304/1194258958257500160/sikatgigi-3.jpeg?ex=65afb353&is=659d3e53&hm=11797e71ba6ea699d89d33f1b88c99321e60cdb2b0cdc10bd0ca38b57d90955c&",
+  "https://cdn.discordapp.com/attachments/170900821200994304/1194258957515116646/sikatgigi-4.jpeg?ex=65afb353&is=659d3e53&hm=6e1657ae229557f44a0eaaa479a9c3258debc2af37cb291c1cfcdd68034034f7&"
 ];
 
 export default function Home({ authors, settings }) {
@@ -97,7 +102,7 @@ export default function Home({ authors, settings }) {
             </div>
             <div className="ml-auto place-self-center lg:col-span-7">
               <h1 className="mb-4 max-w-2xl text-5xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-6xl dark:text-white">
-                Sumber Daya Alam Kemukus
+                Sumber Daya Alam Kemukus 🌿
               </h1>
               <p className="mb-6 max-w-2xl font-light text-gray-900 md:text-lg lg:mb-8 lg:text-xl dark:text-gray-400">
                 Di Padukuhan Kemukus, terdapat air terjun yang dikenal
@@ -127,9 +132,49 @@ export default function Home({ authors, settings }) {
         <motion.div variants={easeOutVariant}>
           <div className="mx-auto max-w-screen-xl px-4 py-8 lg:grid-cols-6 lg:gap-8 lg:py-16 xl:gap-0">
             <h1 className="text-brand-primary mb-3 mt-2 text-center text-4xl font-semibold tracking-tight lg:text-6xl lg:leading-snug dark:text-white">
-              Galeri Kegiatan
+              Galeri Kegiatan 🖼️
             </h1>
             <Gallery images={images} />
+          </div>
+        </motion.div>
+      </motion.section>
+
+      {/* Gambar Kiri */}
+      <motion.section
+        className="bg-white dark:bg-gray-900"
+        initial="offscreen"
+        whileInView="onscreen"
+        viewport={{ once: true, amount: 0.8 }}>
+        <motion.div variants={easeOutVariant}>
+          <div className="mx-auto grid max-w-screen-xl px-4 py-8 lg:grid-cols-12 lg:gap-8 lg:py-16 xl:gap-0">
+            <div className="hidden lg:col-span-5 lg:mt-0 lg:flex">
+              <img
+                src="https://cdn.discordapp.com/attachments/170900821200994304/1194242296099647508/sdnkalimanggis-1.jpeg?ex=65afa3cf&is=659d2ecf&hm=5015dd48e25b188866d4a63917980a9bdfdd807a5a7b5a2e6d024ca479dd8e59&"
+                alt="mockup"
+              />
+            </div>
+            <div className="ml-auto place-self-center lg:col-span-7">
+              <h1 className="mb-4 max-w-2xl text-5xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-6xl dark:text-white">
+                Fasilitas Pendidikan Kemukus 🏫
+              </h1>
+              <p className="mb-6 max-w-2xl font-light text-gray-900 md:text-lg lg:mb-8 lg:text-xl dark:text-gray-400">
+                Pada tahun ajaran 2023/2024, SD Negeri Kalimanggis
+                memiliki program ekstrakurikuler yang meliputi
+                pramuka, olahraga, seni, dan budaya. Sekolah ini juga
+                aktif mengikuti berbagai lomba dan kegiatan di tingkat
+                kabupaten dan provinsi.SD Negeri Kalimanggis memiliki
+                visi untuk menjadi sekolah yang unggul dalam prestasi
+                akademik dan non-akademik, serta berakhlak mulia.
+                Sekolah ini berkomitmen untuk memberikan pendidikan
+                yang berkualitas kepada seluruh siswanya.
+              </p>
+            </div>
+            <div className="lg:hidden">
+              <img
+                src="https://cdn.discordapp.com/attachments/170900821200994304/1194242296099647508/sdnkalimanggis-1.jpeg?ex=65afa3cf&is=659d2ecf&hm=5015dd48e25b188866d4a63917980a9bdfdd807a5a7b5a2e6d024ca479dd8e59&"
+                alt="mockup"
+              />
+            </div>
           </div>
         </motion.div>
       </motion.section>
@@ -144,26 +189,25 @@ export default function Home({ authors, settings }) {
           <div className="mx-auto grid max-w-screen-xl px-4 py-8 lg:grid-cols-12 lg:gap-8 lg:py-16 xl:gap-0">
             <div className="mr-auto place-self-center lg:col-span-7">
               <h1 className="mb-4 max-w-2xl text-5xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-6xl dark:text-white">
-                Tentang Padukuhan Kemukus
+                Fasilitas Padukuhan Kemukus 🏊
               </h1>
               <p className="mb-6 max-w-2xl font-light text-gray-900 md:text-lg lg:mb-8 lg:text-xl dark:text-gray-400">
-                Di Padukuhan Kemukus, terdapat air terjun yang dikenal
-                dengan nama Air Terjun Kemukus. Air terjun ini
-                terletak di tengah hutan dan dikelilingi oleh
-                pemandangan yang hijau dan segar. Pengunjung dapat
-                menikmati keindahan air terjun yang memiliki
-                ketinggian sekitar 35 meter dan airnya yang jernih.
+                Padukuhan Kemukus juga memiliki beberapa hiburan dan
+                fasilitas yang dapat dipakai, seperti contohnya adalah
+                Kolam Renang Arga Tirta yang dapat diakses dengan
+                membeli tiket seharga Rp.7000,00 (per Jan 2024) saja
+                per orangnya
               </p>
             </div>
             <div className="lg:hidden">
               <img
-                src="https://cdn.discordapp.com/attachments/170900821200994304/1186260349654155364/413753fe8fee2a4af980c5be21dbecb4.jpeg?ex=65929a0b&is=6580250b&hm=f0ed1307c02fbe50165ea880f09f243e348bbbea46ee0a4a1a7269160392d3f9&"
+                src="https://cdn.discordapp.com/attachments/170900821200994304/1192649993958465656/kolamrenang-1.jpeg?ex=65a9d8dc&is=659763dc&hm=f7b5f12d38b068e064299bdcd96bb5bd6f740c0c1b2435f2074edaf800afc1ee&"
                 alt="mockup"
               />
             </div>
             <div className="hidden lg:col-span-5 lg:mt-0 lg:flex lg:justify-end">
               <img
-                src="https://cdn.discordapp.com/attachments/170900821200994304/1186260349654155364/413753fe8fee2a4af980c5be21dbecb4.jpeg?ex=65929a0b&is=6580250b&hm=f0ed1307c02fbe50165ea880f09f243e348bbbea46ee0a4a1a7269160392d3f9&"
+                src="https://cdn.discordapp.com/attachments/170900821200994304/1192649993958465656/kolamrenang-1.jpeg?ex=65a9d8dc&is=659763dc&hm=f7b5f12d38b068e064299bdcd96bb5bd6f740c0c1b2435f2074edaf800afc1ee&"
                 alt="mockup"
               />
             </div>
@@ -181,26 +225,28 @@ export default function Home({ authors, settings }) {
           <div className="mx-auto grid max-w-screen-xl px-4 py-8 lg:grid-cols-12 lg:gap-8 lg:py-16 xl:gap-0">
             <div className="hidden lg:col-span-5 lg:mt-0 lg:flex">
               <img
-                src="https://cdn.discordapp.com/attachments/170900821200994304/1186260349654155364/413753fe8fee2a4af980c5be21dbecb4.jpeg?ex=65929a0b&is=6580250b&hm=f0ed1307c02fbe50165ea880f09f243e348bbbea46ee0a4a1a7269160392d3f9&"
+                src="https://cdn.discordapp.com/attachments/170900821200994304/1194242295751512175/satriamart-1.jpeg?ex=65afa3cf&is=659d2ecf&hm=b5b4a24744499747012bb6d8c2a2b41e5f81e053cf4cf93daad315b32ad51e10&"
                 alt="mockup"
               />
             </div>
             <div className="ml-auto place-self-center lg:col-span-7">
               <h1 className="mb-4 max-w-2xl text-5xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-6xl dark:text-white">
-                Tentang Padukuhan Kemukus
+                UMKM Padukuhan Kemukus 🛒
               </h1>
               <p className="mb-6 max-w-2xl font-light text-gray-900 md:text-lg lg:mb-8 lg:text-xl dark:text-gray-400">
-                Di Padukuhan Kemukus, terdapat air terjun yang dikenal
-                dengan nama Air Terjun Kemukus. Air terjun ini
-                terletak di tengah hutan dan dikelilingi oleh
-                pemandangan yang hijau dan segar. Pengunjung dapat
-                menikmati keindahan air terjun yang memiliki
-                ketinggian sekitar 35 meter dan airnya yang jernih.
+                Di Padukuhan Kemukus, terdapat beberapa UMKM yang
+                berperan sebagai sumber ekonomi bagi masyarakat
+                setempat. UMKM yang ada meliputi usaha pembuatan peti
+                mati, penjual makanan, toko kelontong, dan berbagai
+                jenis usaha lainnya. Keberadaan UMKM-UMKM ini
+                memberikan kontribusi yang signifikan dalam
+                perekonomian wilayah, memperluas lapangan kerja, dan
+                meningkatkan pendapatan masyarakat sekitar.
               </p>
             </div>
             <div className="lg:hidden">
               <img
-                src="https://cdn.discordapp.com/attachments/170900821200994304/1186260349654155364/413753fe8fee2a4af980c5be21dbecb4.jpeg?ex=65929a0b&is=6580250b&hm=f0ed1307c02fbe50165ea880f09f243e348bbbea46ee0a4a1a7269160392d3f9&"
+                src="https://cdn.discordapp.com/attachments/170900821200994304/1194242295751512175/satriamart-1.jpeg?ex=65afa3cf&is=659d2ecf&hm=b5b4a24744499747012bb6d8c2a2b41e5f81e053cf4cf93daad315b32ad51e10&"
                 alt="mockup"
               />
             </div>
